@@ -1,0 +1,31 @@
+{
+	"schemaVersion": 1,
+	"id": "jarvis",
+	"version": "${version}",
+	"name": "JARVIS mod for Minecraft java",
+	"description": "This is a mod that integrates the famous AI from Iron Man named J.A.R.V.I.S ",
+	"authors": [
+		"NoTrixy"
+	],
+	"contact": {
+		"homepage": "https://fabricmc.net/",
+		"sources": "https://github.com/FabricMC/fabric-example-mod"
+	},
+	"license": "CC0-1.0",
+	"icon": "assets/jarvis/icon.png",
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+			"me.notrixyst.jarvis.JARVIS"
+		],
+		"client": [
+			"me.notrixyst.jarvis.JARVISClient"
+		]
+	},
+	"depends": {
+		"fabricloader": ">=0.18.4",
+		"minecraft": "~1.21.11",
+		"java": ">=21",
+		"fabric-api": "*"
+	}
+}
